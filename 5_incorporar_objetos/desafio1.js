@@ -2,9 +2,9 @@
  * @challenge: Simulador interactivo
  * Calcular pagos en cuotas sobre un monto determinado.
  * 
- * @version: v1.0.0
+ * @version: v1.1.0
  * @author: Iván Oishi
- * @fecha: 2/12/2021
+ * @fecha: 5/12/2021
  *
  * History:
  *  - v1.0.0 – Primera entrega
