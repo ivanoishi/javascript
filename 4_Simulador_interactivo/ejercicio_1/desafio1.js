@@ -8,15 +8,21 @@
  *
  * History:
  *  - v1.0.0 – Primera entrega
+ *  - v1.0.1 - Modificacion para saber en cuantas cuotas tiene que pagar
  */
 
 // Código
-/* let primerNumero = parseInt (prompt("Cuanto es el monto a pagar?"));
-let segundoNumero = parseInt (prompt("En cuantas cuotas?")); */
-let resultado;
+let primerNumero = parseInt (prompt("Cuanto es el monto a pagar?"));
+let segundoNumero = parseInt (prompt("En cuantas cuotas?"));
+let resultado = 0;
+
 function dividir (primerNumero, segundoNumero) {
      resultado = primerNumero / segundoNumero;
-    
 }
-dividir (parseInt (prompt("Cuanto es el monto a pagar?")), parseInt (prompt("En cuantas cuotas?")));
-alert ("Tenes que pagar $" + resultado + " por mes ");
+
+function mostrar (mensaje) {
+     alert (mensaje);
+}
+dividir (primerNumero, segundoNumero);
+mostrar ('Tenes que pagar $' + resultado + ' en ' + segundoNumero + ' cuotas por mes');
+
