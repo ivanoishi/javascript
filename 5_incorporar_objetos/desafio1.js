@@ -53,10 +53,7 @@ if (formaPago == 'cuotas' || formaPago == 'Cuotas' || formaPago == 'CUOTAS' || f
 }
 
 
-document.getElementById("phone").innerHTML = product.phone;
-document.getElementById("model").innerHTML = product.model;
-document.getElementById("price").innerHTML =  product.price;
-document.getElementById("formaPagar").innerHTML = formaPago;
+
 
 
 
