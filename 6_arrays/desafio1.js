@@ -2,7 +2,7 @@
  * @challenge:  Incorporar Arrays
  * 
  * 
- * @version: v1.1.0
+ * @version: v1.0.0
  * @author: Iván Oishi
  * @fecha: 9/12/2021
  *
