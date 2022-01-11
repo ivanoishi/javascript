@@ -4,6 +4,18 @@
     font-family: sans-serif;
 }
 
-#marginEdit {
-    margin: 1px;
+.boxPay {
+    border: 5px solid #3EC483;
+    background-color: #5DEAA8;
+    height: auto;
+    width: 100%;
+
+    
+    
+}
+
+.payText {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
 }
